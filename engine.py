@@ -351,7 +351,7 @@ class FlameEngine(sgtk.platform.Engine):
             # cannot call this multiple times
             raise TankError("Cannot call set_install_root multiple times!")
 
-        self.log_debug("Flame install root is '%s'" % self._install_root)
+        self.log_debug("Flame install root is '%s'" % install_root)
         self._install_root = install_root
         self._initialize_logging(install_root)
 
